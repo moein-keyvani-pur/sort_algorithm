@@ -1,8 +1,5 @@
 def swape_item(goald_list, start_pointer, end_pointer):
-    temp = goald_list[start_pointer]
-    goald_list[start_pointer] = goald_list[end_pointer]
-    goald_list[end_pointer] = temp
-
+    goald_list[start_pointer],goald_list[end_pointer]=goald_list[end_pointer],goald_list[start_pointer]
 # !!!!
 
 
